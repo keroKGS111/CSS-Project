@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Rakkas&display=swap");
+
+.format,
+.format {
+  color: blue;
+  border-top: outset 5px red;
+  border-bottom: 5px groove green;
+  border-left: 5px black dotted;
+  border-right: 5px blue double;
+  padding: 10px;
+  margin: 20px;
+}
+.h1 {
+  border-bottom: outset 5px darkgreen;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  width: 200px;
+}
+div h3 sub,
+div p small {
+  color: darkred;
+}
+div > p {
+  color: red;
+}
+.list {
+  font-size: 25px;
+}
+div ol li {
+  color: royalblue;
+}
+
+div > ol > li > u#item1 > .laptops > a {
+  color: red;
+  font-size: 14px;
+}
+.laptops {
+  width: 120px;
+  height: 25px;
+}
+div ol li u#item2 {
+  color: orange;
+}
+div ol li u#item3 mark {
+  color: green;
+}
+div > ol > li > button {
+  background-color: black;
+  color: white;
+  padding: 10px 5px 10px 5px;
+}
+.hello {
+  border: 3px red groove;
+  width: 130px;
+  padding: 10px 20px;
+  margin-left: 50%;
+}
+.box {
+  background-color: blue;
+  width: 100px;
+  height: 100px;
+  border: 10px dashed red;
+  margin: 0px;
+}
+.color {
+  background-color: red;
+  width: 500px;
+  height: 200px;
+}
+.head2 {
+  background-color: blue;
+  width: 90%;
+  height: 50%;
+}
+
+.container1 {
+  border: green 2px double;
+  height: fit-content;
+}
+.text {
+  width: fit-content;
+  border: red 5px double;
+  margin: 20px;
+  padding: 20px;
+  max-width: 100%;
+  line-height: 70px;
+}
+.تحية {
+  color: red;
+  direction: rtl;
+  /* تشتغل فقط مع العناصر ال لاblock  لجعل النص في النص او علي اليمين او اليسار  */
+  text-align: center;
+  /* لجعل كل حروف الكلمة كابيتال او سمول  uppercase - lowercase */
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  word-spacing: 10px;
+  /* text-decoration-line: underline overline;
+  text-decoration-color: black;
+  text-decoration-style: wavy; */
+  text-decoration: black underline overline double;
+  text-shadow: 5px 5px 2px black;
+  box-shadow: 10px;
+}
+a {
+  text-decoration: none;
+  font-size: 30px;
+  text-transform: capitalize;
+  border: 2px red double;
+  border-radius: 20px 10px 20px 10px;
+  width: fit-content;
+  padding: 15px;
+  text-align: center;
+  display: block;
+  margin: auto;
+  text-shadow: -10px -10px 5px black, 10px 10px 5px blue, 5px 5px 2.5px red;
+  box-shadow: -10px -10px 5px 5px black, 10px 10px 5px blue, 5px 5px 2.5px red;
+}
+/* text shadow */
+/* H-shadow  V-shadow Blur Color */
+/* Box shadow */
+/* H-shadow  V-shadow Blur Spreading الانتشار  Color Inset شكل الظل من جوه ولا من بره */
+#test {
+  font-size: 50px;
+  font-weight: bold;
+  border: red 2px double;
+  max-width: 100%;
+  margin: 10px;
+  padding: 20px;
+  /* word-wrap: break-word; */
+  white-space: pre-wrap;
+  white-space: pre-line;
+  /* white-space: normal; */
+  font-family: "Rakkas", serif;
+  font-weight: 400;
+  font-style: normal;
+  text-align: right;
+}
