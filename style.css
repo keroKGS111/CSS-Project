@@ -77,7 +77,6 @@ div > ol > li > button {
 .container1 {
   border: green 2px double;
   height: fit-content;
-
 }
 .text {
   width: fit-content;
@@ -177,9 +176,9 @@ a {
   /* line-height: 150px; */
   box-shadow: 5px -5px 5px 5px black;
 }
-body {
-  /* color: red; */
-  /* background-color: yellowgreen;
+/* .background { */
+/* color: red; */
+/* background-color: yellowgreen;
   background-image: url(wallpaper.jpg);
   background-repeat: repeat;
   background-attachment: fixed;
@@ -187,10 +186,10 @@ body {
   background-position: center;
   padding: 100px;
   background-origin: content-box; */
-  /* background-image: linear-gradient(to right, red, blue); */
-  background: linear-gradient(to right, red, blue) center/cover content-box
-    local;
-  /*Background Shorthand : 
+/* background-image: linear-gradient(to right, red, blue); */
+/* background: linear-gradient(to right, red, blue) center/cover content-box
+    local; */
+/*Background Shorthand : 
   color = red;
   image = url(img.png);
   repeat = no-repeat Or repeat;
@@ -217,14 +216,27 @@ background-position          	Sets the starting position of a background image
 background-repeat	            Sets how a background image will be repeated
 background-size	              Specifies the size of the background image(s)
    */
-}
+/* } */
 .background {
   font: italic bold 30px Pacifico;
-  background: linear-gradient(to right, blue, red); /* من البرتقالي للأصفر */
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  color: transparent;
+  background-image: linear-gradient(
+    180deg,
+    rgb(209, 100, 100) 20%,
+    rgb(233, 198, 132) 30% 70%,
+    rgb(196, 233, 122) 80% 90%,
+    transparent 95%
+  );
   text-align: center;
   padding: 2px 20px;
 }
+.wallpaper {
+  font: oblique  bold 50px/90px sans-serif;
+  background-image: linear-gradient(
+      blue 10%,
+      red 20% 30%,
+      green 55% 70%,
+      brown 75% 90%,
+      transparent 98%
+    );
+}
+
