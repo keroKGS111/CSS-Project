@@ -79,6 +79,12 @@ div > ol > li > button {
   height: fit-content;
 }
 .text {
+  background-image: radial-gradient(
+    circle 600px at top left,
+    yellowgreen,
+    transparent
+  );
+
   width: fit-content;
   border: red 5px double;
   margin: 20px;
@@ -230,13 +236,46 @@ background-size	              Specifies the size of the background image(s)
   padding: 2px 20px;
 }
 .wallpaper {
-  font: oblique  bold 50px/90px sans-serif;
-  background-image: linear-gradient(
-      blue 10%,
-      red 20% 30%,
-      green 55% 70%,
-      brown 75% 90%,
-      transparent 98%
-    );
+  margin: 20px 50px;
+  width: fit-content;
+  font: oblique bold 50px/90px sans-serif;
+  text-align: center;
+  background-image: radial-gradient(
+    circle 500px at top,
+    rgb(141, 141, 255),
+    rgb(240, 151, 151),
+    rgb(98, 129, 98)
+  );
 }
 
+.cbox {
+  height: 300px;
+  width: 300px;
+  float: right;
+}
+.x {
+  background-color: red;
+}
+.y {
+  background-color: blue;
+}
+.z {
+  background-color: green;
+}
+.textbox {
+  background-color: yellow;
+  color: black;
+  font: 60px sans-serif;
+  clear: both;
+}
+
+.overflow {
+  overflow: auto;
+  padding: 10px;
+  font-size: 30px;
+  margin: auto;
+  width: 300px;
+  height: 300px;
+  border: dotted 5px;
+  background-color: #ff0;
+}
