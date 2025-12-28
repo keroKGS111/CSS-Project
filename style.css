@@ -72,6 +72,10 @@ div > ol > li > button {
   background-color: blue;
   width: 90%;
   height: 50%;
+  position: relative;
+  top: 30px;
+  left: 60px;
+  bottom: 10px;
 }
 
 .container1 {
@@ -278,4 +282,50 @@ background-size	              Specifies the size of the background image(s)
   height: 300px;
   border: dotted 5px;
   background-color: #ff0;
+}
+
+.container-parent {
+  margin: auto;
+  border: 3px double red;
+  background-image: linear-gradient(90deg, blue, transparent);
+  width: 500px;
+  padding: 20px;
+  position: relative;
+}
+.child {
+  width: 200px;
+  height: 200px;
+}
+.one {
+  background: black;
+  position: relative;
+  z-index: 1;
+  top: 30px;
+  left: 90px;
+}
+.two {
+  background: green;
+  margin-top: 10px;
+  position: absolute;
+  bottom: 30px;
+  right: 60px;
+}
+.three {
+  background: blue;
+  padding: 30px;
+  text-align: center;
+  font: 30px serif;
+  overflow: auto;
+  margin-top: 10px;
+  position: fixed;
+  bottom: 10px;
+  right: 60px;
+}
+.four {
+  background: yellow;
+  margin-top: 10px;
+  position: sticky;
+  left: 90px;
+  bottom: 0;
+  z-index: 0;
 }
