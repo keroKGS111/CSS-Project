@@ -1,3 +1,18 @@
 p{
     color: green;
 }
+p.test ,div.two{
+    font-size: 30px;
+    color: tomato;
+}
+.one{
+    font-size:50px
+}
+.two{
+    font-weight: bold;
+}
+
+#three{
+    color: rgb(255, 0, 0);
+    font-size: 60px;
+}
