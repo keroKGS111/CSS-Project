@@ -47,7 +47,67 @@ div ul li#li1 {
   font-family: sans-serif;
 }
 .box_model {
-  border: dotted 2px blue;
-  padding: 5px;
-  
+  border-left: solid 10px blue;
+  border-top: dashed 5px red;
+  border-bottom: double 5px red;
+  border-right: none;
+  padding: 15px 30px 20px 40px;
+}
+.box {
+  height: 300px;
+  background-color: red;
+  width: 600px;
+  /* ممكن استخدم الـــ margin-left , right : auto علشان اخلي المساحات الخارجية زي بعض  */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* او ممكن استخدام margin : auto; كـــ shorthand */
+  margin: 0 auto;
+  color: white;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.parent {
+  height: 300px;
+  width: 300px;
+  background-color: blue;
+  margin: auto;
+}
+
+.parent > .child {
+  height: 50%;
+  width: 50%;
+  width: 200px;
+  width: fit-content;
+  background-color: red;
+  color: black;
+  padding: 15px 10px;
+}
+.fit-content,
+.max-content,
+.min-content {
+  color: black;
+  background-color: red;
+}
+.fit-content {
+  width: fit-content;
+}
+.min-content {
+  width: min-content;
+}
+.max-content {
+  width: max-content;
+}
+.circle {
+  margin: auto;
+  background-color: red;
+  width: 900px;
+  height: 900px;
+  border-radius: 450px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  max-width: 900px;
+  max-height: 900px;
 }
