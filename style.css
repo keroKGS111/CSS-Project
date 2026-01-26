@@ -1,5 +1,5 @@
 p {
-  color: green;
+  color: black;
 }
 p.test,
 div.two {
@@ -103,11 +103,31 @@ div ul li#li1 {
   background-color: red;
   width: 900px;
   height: 900px;
-  border-radius: 450px;
+  border-radius: 50%;
   color: white;
   align-items: center;
   justify-content: center;
   display: flex;
+  text-align: center;
+  text-transform: capitalize;
   max-width: 900px;
   max-height: 900px;
+}
+.circle-content {
+  padding: 150px;
+}
+.block {
+  background-color: red;
+  text-align: center;
+  text-transform: uppercase;
+  border: blue 5px double;
+  border-radius: 10px 30px 10px 30px;
+  padding: 20px;
+}
+.greetings {
+  /* background-color: blue; */
+  display: block;
+  text-align: right;
+  direction: rtl;
+  text-transform: capitalize;
 }
